@@ -85,9 +85,9 @@ header {
 main {
   grid-area: main;
 }
-.swimcaremain {
+/* .swimcaremain {
   height: 80vh;
-}
+} */
 
 /* .banner-season {
   background-image: url("../imgs/fondopalmeras.jpg");
