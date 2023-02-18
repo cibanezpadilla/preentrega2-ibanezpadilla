@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="grilla">
-        <header class="header "> 
+        <header class="header"> 
             <div class="container">
                 <div class="header__upper d-flex justify-content-between py-2">
                     <a href="">
@@ -59,7 +59,7 @@
             </nav>
         </header>
 
-        <main>
+        <main class="container-fluid">
             <section class="banner-season">
                 <div class="bann card text-white d-flex align-items-center">
                     <img class="banner_season__image" src="imgs/bannerpalmeras.jpg" class="card-img" alt="...">
@@ -72,34 +72,34 @@
 
             <section class="imagenyabout">
                 <div class="container-fluid">
-                <div class="d-sm-flex align-items-center justify-content-between px-3 py-5" >          
-                    <div class="caja-imagen pb-4">
-                    <img
-                        class="imagen"
-                        src="imgs/fotoppal.jpg"
-                        alt=""               
-                    />
-                    <div class="caja-imagen__botontext">
-                        <a href="pages/products.html" class="botoncito btn btn-info btn btn-dark" role="button">Shop Now!</a>
+                    <div class="d-sm-flex align-items-center justify-content-between px-3 py-5" >          
+                        <div class="caja-imagen pb-4">
+                            <img
+                                class="imagen"
+                                src="imgs/fotoppal.jpg"
+                                alt=""               
+                            />
+                            <div class="caja-imagen__botontext">
+                                <a href="pages/products.html" class="botoncito btn btn-info btn btn-dark" role="button">Shop Now!</a>
+                            </div>
+                        
+                        </div>
+            
+                        <div class="caja-about ps-sm-5">
+                            <h2 class="caja-about__titulo text-#1f3d1f text-center">About</h2>
+                            <p class="caja-about--texto text-center" >
+                                Divinorum is an independent swimwear brand based in BA. Taking
+                                aesthetic cues from the sights of the present and the past, Divinorum
+                                combines elements of swimwear and lingerie into pieces defined by
+                                clean lines and a subtle color palette. <br> We don't believe in swimming
+                                seasons and hope our customers create some sort of adventure in
+                                finding a place to swim, no matter the time of year. <br> With a strong
+                                focus on both technical production and quality, Divinorum collections
+                                are entirely designed and made in BA using premium, locally sourced
+                                materials.
+                            </p>
+                        </div>
                     </div>
-                    
-                    </div>
-        
-                    <div class="caja-about ps-sm-5">
-                    <h2 class="caja-about__titulo text-#1f3d1f text-center">About</h2>
-                    <p class="caja-about--texto text-center" >
-                        Divinorum is an independent swimwear brand based in BA. Taking
-                        aesthetic cues from the sights of the present and the past, Divinorum
-                        combines elements of swimwear and lingerie into pieces defined by
-                        clean lines and a subtle color palette. <br> We don't believe in swimming
-                        seasons and hope our customers create some sort of adventure in
-                        finding a place to swim, no matter the time of year. <br> With a strong
-                        focus on both technical production and quality, Divinorum collections
-                        are entirely designed and made in BA using premium, locally sourced
-                        materials.
-                    </p>
-                    </div>
-                </div>
                 </div>        
             </section>      
 
@@ -110,6 +110,7 @@
                         <h3 class="banner__texto--divi fs-5 pt-2">DIVINORUM</h3>
                         <h3 class="banner__texto--sale  display-4">SALE</h3>
                     </div>
+                </div>
                      
             </section>
 
@@ -184,24 +185,18 @@
             </section>
         </main>
         
-        <footer class="footer">
-            <div class="footer__upper">
-                <div class="container-fluid">
-                    <div class="footer_icons text-center pt-2">
-                        <a class="ig text-light text-decoration-none pe-3" href="">Instagram</a>
-                        <a class="fb text-light text-decoration-none" href="">Facebook</a>
-                    </div>
-                </div>        
-            </div>
-            <div class="row text-center text-white">
-                <div class="col-12">
-                    <div class="footer__copy text-center pt-2">
-                        <div class="container-fluid">
-                            <p>© Copyright 2023 Divinorum | Created by Clemencia Ibañez Padilla</p>
-                        </div> 
-                    </div>       
-                </div>
-            </div>
+        <footer>
+            <div class="container-fluid">    
+              <div class="d-flex justify-content-center align-items-center py-2">    
+                <a class="ig text-light text-decoration-none pe-3" href=""    
+                  >Instagram</a
+                >    
+                <a class="fb text-light text-decoration-none" href="">Facebook</a>    
+              </div>    
+            </div>    
+            <p class="footer__copy text-center py-2 m-0">    
+              © Copyright 2023 Divinorum | Created by Clemencia Ibañez Padilla    
+            </p>    
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
